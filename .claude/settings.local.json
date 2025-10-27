@@ -1,26 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir)",
-      "Bash(npm install)",
-      "Bash(npm run dev)",
-      "Bash(npm run build)",
-      "Bash(npm install tailwindcss-animate)",
-      "Bash(npx tsc --noEmit)",
-      "Bash(curl -I http://localhost:5173/)",
-      "Bash(dir /src)",
-      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\")",
-      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\\components\")",
-      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\\lib\")",
-      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\public\")",
-      "Bash(git add vercel.json)",
-      "Bash(git commit -m \"fix: update vercel config for deployment\")",
-      "Bash(git push origin master)",
-      "Bash(git add .)",
-      "Bash(git commit -m \"fix: remove vercel.json for auto-detection\")",
-      "Bash(npx vite build)",
-      "Bash(git commit -m \"fix: use npx for build command\")",
-      "Bash(git commit -m \"fix: simplify vercel config to avoid permission issues\")"
+      "Bash(cmd /c \"dir \"C:UsersljyDesktopstudy endeploy.*\"\")",
+      "Bash(cmd /c \"dir deploy.*\")",
+      "Bash(cmd /c \"type deploy.bat | head -10\")"
     ],
     "deny": [],
     "ask": []
