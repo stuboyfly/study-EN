@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "npx vite build",
+  "outputDirectory": "dist",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
