@@ -16,7 +16,11 @@
       "Bash(git add vercel.json)",
       "Bash(git commit -m \"fix: update vercel config for deployment\")",
       "Bash(git push origin master)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"fix: remove vercel.json for auto-detection\")",
+      "Bash(npx vite build)",
+      "Bash(git commit -m \"fix: use npx for build command\")",
+      "Bash(git commit -m \"fix: simplify vercel config to avoid permission issues\")"
     ],
     "deny": [],
     "ask": []
