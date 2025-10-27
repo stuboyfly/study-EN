@@ -12,7 +12,11 @@
       "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\")",
       "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\\components\")",
       "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\\lib\")",
-      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\public\")"
+      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\public\")",
+      "Bash(git add vercel.json)",
+      "Bash(git commit -m \"fix: update vercel config for deployment\")",
+      "Bash(git push origin master)",
+      "Bash(git add .)"
     ],
     "deny": [],
     "ask": []
