@@ -1,0 +1,23 @@
+{
+  "name": "FunWords - 高考趣味背单词",
+  "short_name": "FunWords",
+  "description": "通过趣味化的方式进行单词测试，避免枯燥",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#2CE8A2",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "games"]
+}

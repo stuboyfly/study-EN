@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunWords 测试页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #1a1a1a;
+            color: white;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .link {
+            display: block;
+            margin: 20px 0;
+            padding: 15px;
+            background: #2CE8A2;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .error {
+            color: #FF4D4D;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FunWords 测试页面</h1>
+        <p>请点击以下链接测试应用：</p>
+
+        <a href="http://localhost:5173/" class="link">
+            🎮 打开 FunWords 应用 (开发服务器)
+        </a>
+
+        <a href="./dist/index.html" class="link">
+            📦 打开 FunWords 应用 (生产构建)
+        </a>
+
+        <div style="margin-top: 30px;">
+            <h3>常见问题排查：</h3>
+            <ul style="text-align: left;">
+                <li>确保开发服务器正在运行 (npm run dev)</li>
+                <li>检查浏览器控制台是否有错误信息</li>
+                <li>尝试刷新页面或清除浏览器缓存</li>
+                <li>确保端口 5173 没有被其他程序占用</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

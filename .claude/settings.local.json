@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Bash(npm install)",
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm install tailwindcss-animate)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(curl -I http://localhost:5173/)",
+      "Bash(dir /src)",
+      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\")",
+      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\\components\")",
+      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\src\\lib\")",
+      "Bash(dir \"c:\\Users\\ljy\\Desktop\\study en\\public\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
